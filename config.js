@@ -1,6 +1,6 @@
 module.exports ={
-    authorName:'Ticoxxo',
-    heading:'Web Developer',
+    authorName:'Jésus Cárdenas',
+    heading:'Professional  furry',
     socialLink: [
         {
             icon: 'fa-github',

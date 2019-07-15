@@ -1,7 +1,7 @@
 import React from 'react'
 
 import config from '../../../config'
-const pic = require('../../images/avatar.jpg');
+const pic = require('../../images/avatar.jpeg');
 
 export default function HeroHeader() {
     return (
