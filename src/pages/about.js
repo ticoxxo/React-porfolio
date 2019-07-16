@@ -5,7 +5,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
 
-import Hero from '../components/hero/Hero';
+import Hero from 'components/hero/';
 
 const About = ({ data }) => (
   <Layout>
