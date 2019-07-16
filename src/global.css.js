@@ -85,7 +85,8 @@ export default createGlobalStyle`
   }
 
   video {
-    max-width: 100%;
+   
+    margin:0;
   }
 
   p {

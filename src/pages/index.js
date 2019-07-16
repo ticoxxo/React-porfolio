@@ -1,23 +1,21 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Layout from 'components/layout';
-import Box from 'components/box';
-import Title from 'components/title';
-import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
-import Modal from 'containers/modal';
-import { graphql } from 'gatsby';
 
+import Layout from 'components/layout';
+
+const vid = require('../videos/unOwen.mp4');
 const Index = ({ data }) => (
   <Layout>
-   
+    <div>
         <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
+          width="100%"
+          height="100%" 
+          src={vid}
           playsInline
           loop
           autoPlay
           muted
         />
+    </div>
   </Layout>
 );
 
