@@ -28,8 +28,6 @@ module.exports = {
           include: /images\/.*\.svg$/,
         },
       },
-    },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
+    }
   ],
 };
